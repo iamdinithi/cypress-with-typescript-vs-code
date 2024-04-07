@@ -1,0 +1,17 @@
+{
+  "name": "cypress-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress-all": "cypress run --browser chrome --headless",
+    "single-test": "cypress run --spec cypress/e2e/tests/login-tests.cy.ts --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.2",
+    "typescript": "^5.4.4"
+  }
+}
